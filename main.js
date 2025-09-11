@@ -26,57 +26,39 @@ function toggleFunction() {
 
 const content = {
     about: {
-        en: "I'm Simeon Pavlov, a passionate freeride skier from Bansko, Bulgaria. At the young age of 4, I strapped on" +
-            "my first pair of skis, thanks to my ski-loving parents. Little did I know that those early glides down the" +
-            "slopes would ignite a lifelong love affair with freeride skiing." +
+        en: `I'm Simeon Pavlov, a passionate freeride skier from Sofia, Bulgaria. At the young age of 4, I strapped on my first pair of skis, 
+        thanks to my ski-loving parents. Little did I know that those early glides down the slopes would ignite a lifelong love affair with 
+        freeride skiing.<br>My journey into freeride skiing officially began at 15 when I attended my first competition. I've been carving my 
+        way through the snow ever since, taking part in an average three to four competitions a season. The thrill of competition became a 
+        familiar companion. It culminated in my first victory in the junior category at the age of 17. I've made a name for myself in the 
+        freeride community.<br>Outside of the snow-capped mountains, my off-seasons are filled with a variety of outdoor adventures. Surfing, 
+        climbing, hiking – you name it, I've probably tried it. As a proponent of an active lifestyle, I find joy in constant movement and 
+        keep myself fit through fit through a range of different sports. Notably, I proudly held the title of Bulgarian national champion in
+        both Freeride skiing and Enduro Mountain Biking. I even ventured into the World Enduro Series, where I faced one of the most challenging 
+        competitions of my career, finishing 24th.<br>The big screen has also showcased a glimpse of my skiing skills. I co-starred in the ski movie <a href='https://vimeo.com/656207361' target="_blank"><strong>\"Зима\"</strong></a>, 
+        filmed right here in Bulgaria. Our efforts were rewarded with the distinction of the best Bulgarian outdoor movie, a testament to the raw beauty 
+        of our mountainous landscapes.`,
 
-            "My journey into freeride skiing officially began at 15 when I attended my first competition. I've been" +
-            "carving my way through the snow ever since, taking part in an average three to four competitions a" +
-            "season. The thrill of competition became a familiar companion. It culminated in my first victory in the" +
-            "junior category at the age of 17. I've made a name for myself in the freeride community." +
-
-            "Outside of the snow-capped mountains, my off-seasons are filled with a variety of outdoor adventures. Surfing, climbing, hiking," +
-            "tennis – you name it, I've probably tried it. As a proponent of an active lifestyle, I find joy in constant movement and keep myself fit through" +
-            "fit through a range of different sports. Notably, I proudly held the title of Bulgarian" +
-            "national champion in both Freeride skiing and Enduro Mountain Biking. I even ventured into the World Enduro" +
-            "Series, where I faced one of the most challenging competitions of my career, finishing 24th." +
-
-            "The big screen has also showcased a glimpse of my skiing skills. I co-starred in the ski movie <a href='https://vimeo.com/656207361'><strong>\"Зима\"</strong></a>, filmed" +
-            "right here in Bulgaria. Our efforts were rewarded with the distinction of the best Bulgarian outdoor movie," +
-            "a testament to the raw beauty of our mountainous landscapes.",
-
-        bg: `Аз съм Симеон Павлов, фрийрайд скиор от Банско, България. На ранната възраст от 4 години се качих на първите си ски, благодарение
+        bg: `Аз съм Симеон Павлов, фрийрайд скиор от София, България. На ранната възраст от 4 години се качих на първите си ски, благодарение
             на моите родители, които обичат ските. Никога не съм знаел, че тези ранни спускания ще запалят любовта ми към свободните ски за цял 
-            живот. Началото на свободното каране на ски официално започна на 15 години, когато участвах в първото си състезание. Оттогава си 
+            живот. <br>Началото на свободното каране на ски официално започна на 15 години, когато участвах в първото си състезание. Оттогава си 
             проправям път през снега, като участвам всеки сезон средно на три до четири състезания. Тръпката от състезанията се превърна в 
             навик и от тогава не съм спирал да участвам по състезания. Кулминацията беше когато спечелих първото ми състезание в юношеска 
-            категория на 17-годишна възраст и започнах да си изграждам име в общността на фрийрайдърите. Отвъд покритите със сняг върхове, 
+            категория на 17-годишна възраст и започнах да си изграждам име в общността на фрийрайдърите. <br>Отвъд покритите със сняг върхове, 
             практикувам много на брой спортове и приключения на открито. Сърф, катерене, колоездене, туризъм - както и да го наречете, 
             вероятно съм го пробвал. Привърженик съм на активния начин на живот, намирам радост в постоянното движение и поддържам 
             физическата си форма чрез различни спортове. По-специално, с гордост притежавам титлата на български национален шампион 
             по фрийрайд ски и ендуро планинско колоездене. Участвах дори в световното състезание по ендуро с колела, където се изправих 
-            пред едно от най-предизвикателните състезания в кариерата си и завърших на 24-то място. Сребърният екран също запечата 
-            част от скиорските ми умения. Участвах в ски филма <a href='https://vimeo.com/656207361'><strong>\"Зима\"</strong></a>, заснет тук, в България. Усилията ни бяха възнаградени с 
+            пред едно от най-предизвикателните състезания в кариерата си и завърших на 24-то място. <br>Сребърният екран също запечата 
+            част от скиорските ми умения. Участвах в ски филма <a href='https://vimeo.com/656207361' target="_blank"><strong>\"Зима\"</strong></a>, заснет тук, в България. Усилията ни бяха възнаградени с 
             отличието за най-добър български филм на открито, свидетелство за суровата красота на нашите планински пейзажи.`
     },
     aboutText2: {
-        en: "Currently, my sights are set on an ambitious goal – to become the first Bulgarian ever to qualify for" +
-            "the" +
-            "prestigious Freeride World Tour. I've already made significant strides, winning the Bansko 3-star competition twice and achieving several top 10 finishes in 4-star events. " +    
-            " The win not only added points to my tally but also brought me" +
-            "one step" +
-            "closer to realizing my dream." +
-
-            "In essence, skiing isn't just a sport for me – it's a passion, a way of life. Whether flying down" +
-            "the" +
-            "slopes, conquering peaks, or pushing my limits, every moment spent in the mountains is a celebration" +
-            "of the" +
-            "very essence of who I am. Join me on this exhilarating journey through snow-covered landscapes and" +
-            "beyond –" +
-            "the adventure never stops!",
-
-        bg: `В момента се стремя към една амбициозна цел - да стана първият българин, класирал се на Световния Кръг по Фрийрайд. Вече съм постигнал значителен напредък, като спечелих 3 звездното състезанието в Банско два пъти и постигнах няколко топ 10 класирания в състезания от ранк 4 звезди в Алпите. 
-                    Победата не само добави точки към общото класиране, но и ме доближи с една стъпка по-близо до осъществяването на моята мечта. По същество за мен ски спортът не е просто спорт - той е страст, начин на живот. Независимо дали се състезавам по склоновете, покорявам върхове или надскачам границите си, всеки миг, прекаран в планината, е празник. Присъединете се с мен на това вълнуващо пътешествие през покрити със сняг пейзажи и отвъд - приключението никога не спира!`
+        en: `Most recently, I reached a new milestone by qualifying for the Freeride World Challenger Tour, becoming the first Bulgarian ever to compete at this level of freeride skiing. It was a season filled with both challenges and breakthroughs — from tough starts and canceled stops to moments where everything clicked and I stood my ground among some of the world’s best riders. Step by step, I found consistency and confidence, finishing 14th overall and securing my spot for the upcoming season — a proud moment not just for me, but for Bulgarian freeride as a whole.
+         Currently, my sights are set on an even more ambitious goal — to become the first Bulgarian ever to qualify for the prestigious Freeride World Tour. I’ve already made significant strides toward that dream, with back-to-back victories at the Bansko 3-star competition and several top 10 finishes at 4-star events. Each result brings me closer, but more importantly, it fuels the fire that keeps me pushing my limits.
+         For me, skiing isn’t just a sport — it’s a passion, a way of life. Whether I’m flying down the slopes, conquering new peaks, or testing how far I can go, every moment in the mountains is a celebration of who I am. And the journey is far from over — the adventure never stops.`
+        ,
+        bg: `Наскоро постигнах нов важен етап в кариерата си, като се класирах за Freeride World Challenger Tour, ставайки първият българин, който някога е участвал на такова ниво във фрийрайд ските. Сезонът беше изпълнен както с предизвикателства — от трудни стартове и отменени състезания до моменти, в които всичко се получаваше и успявах да се изправя достойно срещу някои от най-добрите състезатели в света. Стъпка по стъпка намерих постоянство и увереност и завърших на 14-то място в генералното класиране, осигурявайки си място за следващия сезон — горд момент не само за мен, но и за българския фрийрайд като цяло. В момента погледът ми е насочен към още по-амбициозна цел — да стана първият българин, който се класира за престижния Freeride World Tour. Вече направих значителни крачки към тази мечта, с две поредни победи в Bansko 3-star състезанието и няколко класирания в топ 10 на 4-star стартове. Всеки резултат ме доближава до целта, но по-важното е, че подхранва огъня, който ме кара непрекъснато да надскачам границите си. За мен ските не са просто спорт — те са страст, начин на живот.`
     },
     futurePlans: {
         en: `Throughout the upcoming season, I'll be traveling across the Alps to compete in the Freeride World Tour Challengers. This competition is
@@ -98,7 +80,7 @@ const content = {
     latest: {
         en: `<i>Explore the thrill and beauty of my recent skiing escapades through these captivating snapshots. Whether gracefully navigating pristine powder or conquering challenging slopes, each image tells a story of passion, perseverance, and the sheer joy of freeride skiing. Take a visual journey with me through the world of snow-covered peaks and adrenaline-pumping descents.</i>`,
 
-        bg: `<i>Разгледайте снимките от последните ми ски приключения и състезание.<br>
+        bg: `<i>Разгледайте снимките от последните ми ски приключения и състезания.<br>
              Всяка снимка разказва за страстта, упоритостта и чистата радост от свободното каране на ски.</i>`
     },
     clickPicture: {
@@ -108,11 +90,11 @@ const content = {
     }
 }
 
-document.getElementById('aboutText').innerHTML = content.about.en;
-document.getElementById('aboutText2').innerText = content.aboutText2.en;
-document.getElementById('futurePlans').innerText = content.futurePlans.en;
-document.getElementById('latest').innerHTML = content.latest.en;
-document.getElementById('clickPicture').innerHTML = content.clickPicture.en;
+document.getElementById('aboutText').innerHTML = content.about.bg;
+document.getElementById('aboutText2').innerText = content.aboutText2.bg;
+document.getElementById('futurePlans').innerText = content.futurePlans.bg;
+document.getElementById('latest').innerHTML = content.latest.bg;
+document.getElementById('clickPicture').innerHTML = content.clickPicture.bg;
 
 let currentLanguage = 'en';
 
